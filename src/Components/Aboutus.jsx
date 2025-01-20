@@ -1,8 +1,9 @@
 import React from 'react'
 import Signing from './signing'
-import Footerbee from './footerbee'
+
 import Navbar from './Navbar'
 import './Aboutus.css'
+import Footerbee from './Footerbee'
 
 const Aboutus = () => {
   return (
@@ -23,7 +24,7 @@ const Aboutus = () => {
 
         </div>
       </div>
-      <Signing/>
+      {/* <Signing/> */}
       <Footerbee/>
     </div>
   )

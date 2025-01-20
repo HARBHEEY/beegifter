@@ -1,11 +1,12 @@
 import React from 'react'
 import Tradesection from './Tradesection'
 import Signing from './signing'
-import Footerbee from './footerbee'
+
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
 import coinimage from '../assets/coinsimg.png';
 import './Features.css'
+import Footerbee from './Footerbee'
 
 const Features = () => {
   return (
@@ -28,7 +29,7 @@ const Features = () => {
       </div>
       <Tradesection/>
       <Giftcardsection/>
-      <Signing/>
+      {/* <Signing/> */}
       <Footerbee/>
     </div>
   )
