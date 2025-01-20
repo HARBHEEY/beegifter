@@ -4,7 +4,8 @@ import Tradesection from './Tradesection'
 
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
-import coinimage from '../assets/coinsimg.png';
+// import coinimage from '../assets/coinsimg.png';
+import coinimage from '../assets/coinsimg.png'
 import './Features.css'
 import Footerbee from './Footerbee'
 
