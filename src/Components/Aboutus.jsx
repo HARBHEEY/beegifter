@@ -1,5 +1,5 @@
 import React from 'react'
-import Signing from './signing'
+import Signing from './Signing'
 import Navbar from './Navbar'
 import './Aboutus.css'
 import Footerbee from './Footerbee'

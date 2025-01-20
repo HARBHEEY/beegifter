@@ -1,6 +1,6 @@
 import React from 'react'
 import Tradesection from './Tradesection'
-import Signing from './signing'
+import Signing from './Signing'
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
 import coimage from '../assets/coinsimg.png'

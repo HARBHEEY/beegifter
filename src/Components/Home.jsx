@@ -5,7 +5,7 @@ import Tradesection from './Tradesection'
 import Giftcardsection from './Giftcardsection'
 import Accordion from './Accordion'
 import Footerbee from './Footerbee'
-import Signing from './signing'
+import Signing from './Signing'
 
 const Home = () => {
   return (
