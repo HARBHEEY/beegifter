@@ -15,7 +15,7 @@ const Home = () => {
     <Tradesection/>
     <Giftcardsection/>
     <Accordion/>
-    <Signing/>
+    {/* <Signing/> */}
     <Footerbee/>
     </>
   )
