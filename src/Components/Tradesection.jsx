@@ -3,7 +3,7 @@ import './Tradesection.css'
 import card1 from '../assets/Creditcard.png';
 import card2 from '../assets/bitcoinconvert_.png';
 import card3 from '../assets/GivingRupiahcoin.png';
-import card4 from '../assets/List.png';
+import card4 from '../assets/List.png'
 
 const Tradesection = () => {
   return (
