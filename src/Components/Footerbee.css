@@ -1,0 +1,213 @@
+footer{
+    background-color: #27272a;
+    padding: 80px 80px;
+    padding-bottom: 40px;
+}
+.newspaper{
+    display: flex;
+    justify-content: space-between;
+}
+.newspaper1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #ffffff;
+}
+.newspaper1 p{
+    color: #ffffff;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.subscribe input{
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.lin{
+    display: flex;
+    background-color: #f49506;
+    color: #ffffff;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content:  center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.complimentary{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.pro-flex{
+    display: flex;
+    gap: 250px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo1{
+    display: flex;
+    flex-direction: column;
+}
+.logo1 h1{
+    color: black;
+}
+.logo1 span{
+    color: rgb(184, 29, 55);
+}
+.logo2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.messager{
+    color: #f49506;
+    font-size: 25px;
+}
+.message p{
+    color: #ffffff;
+}
+.call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.caller{
+    color: #f49506;
+    font-size: 25px;
+}
+.call p{
+    color: #ffffff;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.profile h3{
+    color: #f49506;
+    font-weight: 400;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.socialmedia a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.socialmedia h3{
+    color: #f49506;
+    font-weight: 400;
+}
+hr{
+    height: 0px;
+    margin-top: 40px; 
+}
+.footerend{
+    display: flex;
+    gap: 650px;
+    margin-top: 30px;
+}
+.footerend1{
+    display: flex;
+    gap: 50px;
+    margin-left: 40px;
+}
+.footerend1 h6{
+    color: #d1d5db;
+    font-size: 15px;
+}
+.footerend1 span{
+    color: #f49506;
+}
+.socialimages{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 20px;
+}
+@media (max-width:900px){
+    footer{
+        padding: 20px;
+    }
+    .newspaper{
+        flex-direction: column;
+        justify-content: baseline;
+        gap: 30px;
+    }
+    .subscribe{
+        flex-direction: column;
+        align-items: none;
+        justify-content: none;
+    }
+    .subscribe input{
+        width: 800px;
+    }
+    .lin{
+        width: 800px;
+    }
+    .complimentary{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 70px;
+    }
+    .pro-flex{
+        gap: 600px;
+        align-items: center;
+    }
+    .footerend{
+        gap: 250px;
+        justify-content: flex-start;
+    }
+    .footerend1{
+        margin-left: 20px;
+        gap: 20px;
+    }
+}
+
+@media (max-width:428px){
+    .subscribe input{
+        width: 370px;
+    }
+    .lin{
+        width: 370px;
+    }
+    .pro-flex{
+        gap: 100px;
+    }
+    .footerend{
+        flex-direction: column;
+        gap: 30px;
+    }
+}

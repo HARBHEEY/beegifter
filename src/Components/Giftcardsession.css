@@ -1,0 +1,255 @@
+.seller{
+    background-color: #fffbeb;
+}
+.rate{
+    display: flex;
+    gap: 600px;
+}
+.rate1{
+    position: relative;
+}
+.rate1 img{
+    width: 300px;
+}
+.rate-phone{
+    position: absolute;
+    bottom: -70px;
+    left: 70px;
+}
+.rate-phone img{
+    width: 600px;
+    height: 550px;
+}
+.rate-note{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 20px;
+
+}
+.rate-note h1{
+    width: 400px;
+    line-height: 40px;
+    font-size: 35px;
+    color: #092b89;
+}
+.rate-note p{
+    width: 460px;
+    color: #6b7280;
+}
+.ratel{
+    display: flex;
+    gap: 410px;
+}
+.rate-note2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px;
+    margin-top: 170px;
+
+}
+.rate-note2 h1{
+    width: 400px;
+    line-height: 40px;
+    font-size: 35px;
+    color: #092b89;
+}
+.rate-note2 p{
+    width: 460px;
+    color: #6b7280;
+}
+.rate2{
+    position: relative;
+}
+.rate2 img{
+    width: 350px;
+}
+.rate-phone2{
+    position: absolute;
+    bottom: -10px;
+    right: 60px;
+}
+.rate-phone2 img{
+    width: 600px;
+    height: 550px;
+}
+.fiatplug{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fiatplug h1{
+    color: #092b89;
+    width: 600px;
+    text-align: center;
+}
+.fiatplug span{
+    color: #fbbf24;
+}
+.fiat-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 470px;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.fiat-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 40px;
+}
+.circle-div{
+    display: flex;
+    gap: 30px;  
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #6b7280;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-note{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.circle-note h3{
+    color: #0246ff;
+}
+.circle-note p{
+    color: #6b7280;
+    width: 510px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.fiat-box img{
+    width: 210px;
+}
+
+@media (max-width:900px){
+    .rate{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .rate-phone{
+        left: 10px;
+    }
+    .rate-note{
+        padding: 40px;
+        margin-top: 100px;
+    }
+    .ratel{
+        flex-direction: column;
+    }
+    .rate-note2{
+        padding: 40px;
+        margin-top: 0px;
+    }
+    .rate2{
+        bottom: 450px;
+        left: 530px;
+    }
+    .rate-phone2{
+        right: 600px;
+        bottom: -100px;
+    }
+    .rate-note h1 , p{
+        width: 600px;
+    }
+    .rate-note2 h1 , p{
+        width: 600px;
+    }
+    .fiatplug{
+        margin-top: -200px;
+    }
+    .fiat-box{
+        width: 870px;
+    }
+    .fiat-box img{
+        width: 180px;
+    }
+}
+
+@media (max-width:428px){
+     .rate1 img{
+        width: 250px;
+     }
+     .rate-phone{
+        left: 10px;
+        bottom: 10px;
+     }
+     .rate-phone img{
+        width: 430px;
+        height: 400px;
+     }
+     .rate-note{
+        margin-top: 30px;
+     }
+     .rate-note h1{
+        width: 340px;
+        font-size: 30px;
+     }
+     .rate-note p{
+        width: 360px;
+     }
+     .rate-note2 h1{
+        width: 360px;
+        font-size: 30px;
+     }
+     .rate-note2 p{
+        width: 360px;
+     }
+     .rate2{
+        left: 170px;
+        bottom: 400px;
+     }
+     .rate-phone2{
+        right: 170px;
+     }
+     .rate2 img{
+        width: 250px;
+     }
+     .rate-phone2 img{
+        height: 430px;
+        width: 450px;
+     }
+     .fiatplug h1{
+        width: 350px;
+        line-height: 40px;
+     }
+     .fiat-box{
+        width: 370px;
+        height: 700px;
+     }
+     .fiat-flex{
+        padding: 30px 30px;
+     }
+     .circle-div{
+        gap: 20px;
+     }
+     .circle{
+        width: 40px;
+        height: 40px;
+     }
+     .circle-note h3{
+        width: 200px;
+     }
+     .circle-note p{
+        width: 250px;
+     }
+     .fiat-box img{
+        display: none;
+     }
+
+}

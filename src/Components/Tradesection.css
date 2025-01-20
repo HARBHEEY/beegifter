@@ -1,0 +1,85 @@
+.tradesection{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+.tradesection1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     
+}
+.tradesection1 h1{
+    color: #092b89;
+}
+.tradesection1 span{
+    color: #fbbf24;
+}
+.tradesection1 p{
+    font-size: 15px;
+    width: 700px;
+    text-align: center;
+}
+.giftcard{
+    display: flex;
+    gap: 30px;
+}
+.giftbox{
+    width: 320px;
+    height: 370px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.trade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.trade img{
+    width: 150px;
+}
+.trade span{
+    font-size: 15px;
+    width: 240px;
+    color: #6b7280;
+}
+
+
+@media (max-width:900px){
+    .tradesection{
+        padding: 50px 40px;
+    }
+    .giftcard{
+        flex-direction: column;
+    }
+    .giftbox{
+        width: 800px;
+        height: 330px;
+    }
+    .trade span{
+        width: 600px;
+    }
+}
+
+
+@media (max-width:428px){
+    .tradesection1 h1{
+        font-size: 30px;
+    }
+    .tradesection1 p{
+        width: 370px;
+    }
+    .giftbox{
+        width: 350px;
+        height: 350px;
+    }
+    .trade span{
+        width: 300px;
+    }
+}

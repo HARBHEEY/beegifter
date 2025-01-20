@@ -1,0 +1,157 @@
+.herosection{
+    background-color: #fffbeb;
+    /* overflow: hidden; */
+}
+.hero-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.hero-column{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    gap: 40px;
+}
+.hero-column h1{
+    font-size: 60px;
+    width: 700px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.hero-column p{
+    font-size: 20px;
+    width: 350px;
+}
+.link{
+    display: flex;
+    background-color: #fbbf24;
+    color: black;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.image-flex{
+    display: flex;
+    gap: 15px;
+}
+.image-flex img{
+    width: 150px;
+}
+.relativeimg{
+    position: relative;
+    display: flex;
+}
+.relativeimg img{
+    width: 250px;
+    height: 550px;  
+}
+.relativeimg img:nth-child(1){
+    padding: 30px;
+    width: 300px;
+}
+.phoneimg{
+    display: flex;
+    position: absolute;
+    right: 1100px;
+    left: 1100px;
+    padding: 50px;
+}
+.c{
+    position: relative;
+    left: -460px;
+    top: 50px;
+}
+.phoneimg img{
+    width: 300px;
+}
+.herobottom{
+    background-color: #092b89;
+}
+.hero-row{
+    display: flex;
+    gap: 150px;
+    padding: 40px 200px;
+    justify-content: center;
+}
+.trading-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.trading-nos span{
+    color: #ffffff;
+    font-size: 10px;
+}
+.ila{ 
+    height:50px;
+}
+
+@media (max-width:900px){
+    .hero-flex{
+        flex-direction: column;
+    }
+    .herobottom{
+        width: 100%;
+    }
+    .phoneimg{
+        /* flex-direction: column; */
+        right: 50px;
+        left: 50px;
+        bottom: -250px;
+    }
+    .c{
+        left: 0px;
+        top: 60px;
+    }
+    .hero-row{
+        gap: 100px;
+        padding:40px 70px;
+        /* justify-content: start; */
+    }
+}
+
+
+@media (max-width:428px){
+    .hero-column{
+        padding: 50px 50px;
+        gap: 30px;
+        align-items: center;
+    }
+    .hero-column h1{
+        font-size: 30px;
+        width: 350px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .hero-column p{
+        font-size: 15px;
+        width: 300px;
+        text-align: center;
+    }
+    .relativeimg img{
+        width: 130px;
+        height: 350px;
+    }
+    .phoneimg img{
+        width: 180px;
+        margin-bottom: 200px;
+    }
+    .c{
+        left: -100px;
+    }
+    .hero-row{
+        gap: 50px;
+    }
+    .trading-nos span{
+        text-align: center;
+    }
+}
