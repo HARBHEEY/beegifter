@@ -4,8 +4,8 @@ import HeroSection from './Herosection'
 import Tradesection from './Tradesection'
 import Giftcardsection from './Giftcardsection'
 import Accordion from './Accordion'
-import Signing from './signing'
 import Footerbee from './Footerbee'
+import Signing from './signing'
 
 const Home = () => {
   return (
