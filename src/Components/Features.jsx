@@ -3,7 +3,7 @@ import Tradesection from './Tradesection'
 import Signing from './Signing'
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
-import coimage from '../assets/coinsimg.png'
+// import coimage from '../assets/coinsimg.png'
 import './Features.css'
 import Footerbee from './Footerbee'
 
@@ -20,7 +20,7 @@ const Features = () => {
               <p>Exchange gift cards and instantly engage in buying and selling cryptocurrencies using your peer-to-peer bank account.</p>
             </div>
             <div className="cryp2">
-              <img src={coimage} alt="" />
+              {/* <img src={coimage} alt="" /> */}
             </div>
 
           </div>
