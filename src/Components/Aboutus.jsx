@@ -1,5 +1,5 @@
 import React from 'react'
-import Signing from './signing'
+
 
 import Navbar from './Navbar'
 import './Aboutus.css'
@@ -24,7 +24,7 @@ const Aboutus = () => {
 
         </div>
       </div>
-      {/* <Signing/> */}
+    
       <Footerbee/>
     </div>
   )

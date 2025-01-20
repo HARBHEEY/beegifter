@@ -5,7 +5,7 @@ import Tradesection from './Tradesection'
 import Giftcardsection from './Giftcardsection'
 import Accordion from './Accordion'
 import Footerbee from './Footerbee'
-import Signing from './signing'
+
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
     <Tradesection/>
     <Giftcardsection/>
     <Accordion/>
-    {/* <Signing/> */}
+  
     <Footerbee/>
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import Tradesection from './Tradesection'
-import Signing from './signing'
+
 
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
@@ -29,7 +29,7 @@ const Features = () => {
       </div>
       <Tradesection/>
       <Giftcardsection/>
-      {/* <Signing/> */}
+  
       <Footerbee/>
     </div>
   )
