@@ -1,6 +1,6 @@
 import React from 'react'
 import './Signing.css'
-import image1 from '../assets/appstore.png';
+import image1 from '../assets/appstore.png'
 import image2 from '../assets/googleplay.png'
 import image3 from '../assets/startphone.png'
 
