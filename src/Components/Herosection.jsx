@@ -13,7 +13,7 @@ const HeroSection = () => {
     <>
       <div className="herosection">
         <div className='hero-flex'>
-          <div className='hero-column'>
+          <div data-aos="fade-right" data-aos-duration="1000" className='hero-column'>
             <h1>Instant cash for gift cards & crypto exchange</h1>
             <p>Enjoy fast & secure transactions
             with amazing rates</p>
@@ -27,7 +27,7 @@ const HeroSection = () => {
             <img src={bee3} alt="" />
             <img src={bee4} alt="" />
           </div>
-          <div className='phoneimg'>
+          <div data-aos="fade-left" data-aos-duration="1000" className='phoneimg'>
             <img src={bee5} alt="" />
             <div className="c">
               <img src={bee6} alt="" />
@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="herobottom">
-          <div className="hero-row">
+          <div  className="hero-row">
             <div className="trading-nos">
              <h2>$15+</h2>
              <span>P2P Volume</span>

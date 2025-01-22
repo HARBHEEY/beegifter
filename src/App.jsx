@@ -1,6 +1,8 @@
 
 import './App.css'
 import { BrowserRouter, Route, Routes, } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 import Features from './Components/Features'
 import Contact from './Components/Contact'
@@ -9,7 +11,7 @@ import Aboutus from './Components/Aboutus'
 import Home from './Components/Home'
 
 function App() {
-
+  AOS.init();
 
   return (
     <>

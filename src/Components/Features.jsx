@@ -15,11 +15,11 @@ const Features = () => {
       <div className="cryptocurrency">
         <div className="crypt">
           <div className="cryp">
-            <div className="cryp1">
+            <div data-aos="fade-down-right" data-aos-duration="1000" className="cryp1">
               <h1>Trade Gift Cards and Engage in Cryptocurrency Buying and Selling</h1>
               <p>Exchange gift cards and instantly engage in buying and selling cryptocurrencies using your peer-to-peer bank account.</p>
             </div>
-            <div className="cryp2">
+            <div data-aos="fade-down-right" data-aos-duration="2000" className="cryp2">
               <img src={coimage} alt="" />
             </div>
 

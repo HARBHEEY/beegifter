@@ -15,32 +15,32 @@ const Giftcardsection = () => {
             <div className="rate">
                <div className="rate1">
                    <img src={animate1} alt="" />
-                  <div className="rate-phone">
+                  <div data-aos="fade-right" data-aos-duration="1000" className="rate-phone">
                      <img src={animate2} alt="" />
                   </div>
                </div>
-               <div className="rate-note">
+               <div data-aos="fade-left" data-aos-duration="1000" className="rate-note">
                 <h1>We offer a range of gift cards at exceptional rates.</h1>
                 <p>We purchase gift cards from a diverse array of brands and countries, including Apple iTunes, Google Play, Nordstrom, Steam, Sephora, Amazon, Walmart, Visa, American Express, and many others.</p>
                </div>
             </div>
             <div className="ratel">
-                <div className="rate-note2">
+                <div data-aos="fade-right" data-aos-duration="1000" className="rate-note2">
                     <h1>Effortless Peer-to-Peer Cryptocurrency Transactions</h1>
                     <p>We purchase gift cards from a diverse array of brands and countries, including Apple iTunes, Google Play, Nordstrom, Steam, Sephora, Amazon, Walmart, Visa, American Express, and many others.</p>
                 </div>
                 <div className='rate2'>
                     <img src={animate3} alt="" />
-                    <div className="rate-phone2">
+                    <div data-aos="fade-left" data-aos-duration="1000" className="rate-phone2">
                         <img src={animate4} alt="" />
                     </div>
                 </div>
             </div>
-            <div className="fiatplug">
+            <div data-aos="fade-left" data-aos-duration="1000" className="fiatplug">
                 <h1>BEEgifter provides a seamless P2P <span>transactions</span></h1>
                 <div className="fiat-box">
                     <div className="fiat-flex">
-                       <div className="circle-div">
+                       <div data-aos="fade-up" data-aos-duration="1000" className="circle-div">
                            <div className="circle"><FaCheck color='blue'/>
                            </div>
                            <div className="circle-note">
@@ -48,7 +48,7 @@ const Giftcardsection = () => {
                               <p>Our platform ensures a seamless and secure trading experience for selling gift cards and cryptocurrencies.</p>
                            </div>
                        </div>
-                       <div className="circle-div">
+                       <div data-aos="fade-up" data-aos-duration="1000" className="circle-div">
                            <div className="circle"><FaCheck color='blue'/>
                            </div>
                            <div className="circle-note">
@@ -56,7 +56,7 @@ const Giftcardsection = () => {
                               <p>Our platform ensures a seamless and secure trading experience for selling gift cards and cryptocurrencies.</p>
                            </div>
                        </div>
-                       <div className="circle-div">
+                       <div data-aos="fade-up" data-aos-duration="1000" className="circle-div">
                            <div className="circle"><FaCheck color='blue'/>
                            </div>
                            <div className="circle-note">
@@ -64,7 +64,7 @@ const Giftcardsection = () => {
                               <p>Selling cryptocurrency on BEEgifter is a straightforward and secure process that allows you to convert your digital assets into BEEgifter currency with ease</p>
                            </div>
                        </div>
-                       <div className="circle-div">
+                       <div data-aos="fade-up" data-aos-duration="1000" className="circle-div">
                            <div className="circle"><FaCheck color='blue'/>
                            </div>
                            <div className="circle-note">
