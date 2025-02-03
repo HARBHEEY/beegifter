@@ -1,18 +1,19 @@
-.Navbar{
+.Nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
     border: 1px solid black;
 }
-.Navbar h1{
+.Nav h1{
     color: black;
 }
-.Navbar span{
+.Nav span{
     color: rgb(184, 29, 55);
 }
 .Links{
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 .Links a{
@@ -28,31 +29,43 @@
     display:none;
     color: black;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
 }
-.show-menu{
-    flex-direction: column;
-    gap: 8px;
-    background-color: whitesmoke;
-    justify-content: center;
-    padding: 23px;
-    border-top: 1px solid #ffffff;
-    display: none;
-    color: black;
-}
+
+
+
 @media (max-width:900px){
-    .Links{
-        display: none;
-    }
-    .menu{
-        display: flex;
-        font-size: 30px;
-    }
+   .Links{
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000; 
+   }
+   .Links a{
+    color: white !important;
+   }
+   .menu{
+    display: flex;
+    position: relative;
+   }
+   .Links.active{
+    display: flex;
+   }
 }
 
 
 @media (max-width:428px){
-    .Navbar{
+    .Nav{
         padding: 20px 30px;
     }
 }

@@ -6,11 +6,13 @@ import Giftcardsection from './Giftcardsection'
 import Accordion from './Accordion'
 import Footerbee from './Footerbee'
 import Signing from './Signing'
+import Nav from './Nav'
 
 const Home = () => {
   return (
     <>
     <Navbar/>
+    {/* <Nav/> */}
     <HeroSection/>
     <Tradesection/>
     <Giftcardsection/>
