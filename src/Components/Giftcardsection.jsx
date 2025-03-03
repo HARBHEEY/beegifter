@@ -14,12 +14,12 @@ const Giftcardsection = () => {
         <div className="seller">
             <div className="rate">
                <div className="rate1">
-                   <img src={animate1} alt="" />
+                    <img src={animate1} alt="" /> 
                   <div data-aos="fade-right" data-aos-duration="1000" className="rate-phone">
                      <img src={animate2} alt="" />
                   </div>
                </div>
-               <div data-aos="fade-left" data-aos-duration="1000" className="rate-note">
+               <div data-aos="fade-up" data-aos-duration="1000" className="rate-note">
                 <h1>We offer a range of gift cards at exceptional rates.</h1>
                 <p>We purchase gift cards from a diverse array of brands and countries, including Apple iTunes, Google Play, Nordstrom, Steam, Sephora, Amazon, Walmart, Visa, American Express, and many others.</p>
                </div>
@@ -31,12 +31,12 @@ const Giftcardsection = () => {
                 </div>
                 <div className='rate2'>
                     <img src={animate3} alt="" />
-                    <div data-aos="fade-left" data-aos-duration="1000" className="rate-phone2">
+                    <div className="rate-phone2">
                         <img src={animate4} alt="" />
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" className="fiatplug">
+            <div className="fiatplug">
                 <h1>BEEgifter provides a seamless P2P <span>transactions</span></h1>
                 <div className="fiat-box">
                     <div className="fiat-flex">

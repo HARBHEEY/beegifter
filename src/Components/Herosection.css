@@ -1,6 +1,6 @@
 .herosection{
     background-color: #fffbeb;
-    /* overflow: hidden; */
+     /* overflow: hidden; */
 }
 .hero-flex{
     display: flex;
@@ -50,17 +50,17 @@
 }
 .relativeimg img{
     width: 250px;
-    height: 550px;  
+    height: 500px;  
 }
 .relativeimg img:nth-child(1){
     padding: 30px;
-    width: 300px;
-}
+    width: 280px; 
+} 
 .phoneimg{
     display: flex;
     position: absolute;
-    right: 1100px;
-    left: 1100px;
+    right: 1050px;
+    left: 1050px; 
     padding: 50px;
 }
 .c{
@@ -68,7 +68,10 @@
     left: -460px;
     top: 50px;
 }
-.phoneimg img{
+.c img{
+    width: 300px;
+}
+.a img{
     width: 300px;
 }
 .herobottom{
@@ -103,10 +106,12 @@
         width: 100%;
     }
     .phoneimg{
-        /* flex-direction: column; */
         right: 50px;
         left: 50px;
         bottom: -250px;
+    }
+    .c img{
+        height: 520px;
     }
     .c{
         left: 0px;
@@ -120,7 +125,7 @@
 }
 
 
-@media (max-width:428px){
+@media (max-width:480px){
     .hero-column{
         padding: 50px 50px;
         gap: 30px;
@@ -141,17 +146,42 @@
         width: 130px;
         height: 350px;
     }
-    .phoneimg img{
+    .phoneimg{
+        margin-bottom: 180px;
+    }
+    .a img{
         width: 180px;
-        margin-bottom: 200px;
+        height: 300px;
     }
     .c{
         left: -100px;
+    }
+    .c img{
+        width: 180px;
+        height: 300px;
     }
     .hero-row{
         gap: 50px;
     }
     .trading-nos span{
         text-align: center;
+    }
+}
+
+@media (max-width:320px){
+    .hero-column h1{
+        width: 250px;
+    }
+    .relativeimg img{
+        width: 70px;
+    }
+    .phoneimg{
+        right: 0;
+        left: 0;
+        margin-bottom: -180px;
+    }
+    .hero-row{
+        gap: 30px;
+        
     }
 }

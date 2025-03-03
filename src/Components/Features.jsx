@@ -19,7 +19,7 @@ const Features = () => {
               <h1>Trade Gift Cards and Engage in Cryptocurrency Buying and Selling</h1>
               <p>Exchange gift cards and instantly engage in buying and selling cryptocurrencies using your peer-to-peer bank account.</p>
             </div>
-            <div data-aos="fade-down-right" data-aos-duration="2000" className="cryp2">
+            <div data-aos="fade-down-right" data-aos-duration="1300" className="cryp2">
               <img src={coimage} alt="" />
             </div>
 

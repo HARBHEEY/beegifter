@@ -57,7 +57,7 @@ const Accordion = () => {
         <div data-aos="fade-right" data-aos-duration="1000" className="accordionflex">
            <h1>Frequently asked questions</h1>
         </div>
-        <div data-aos="fade-left" data-aos-duration="1000" className="faq-container">
+        <div data-aos="fade-right" data-aos-duration="1000" className="faq-container">
           {accord.map((open,index)=>(
             <div
             key={index}

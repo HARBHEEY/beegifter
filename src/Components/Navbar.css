@@ -34,7 +34,7 @@
 
 
 
-@media (max-width:900px){
+@media (min-width:768px) and (max-width:1023px){
    .Links{
     display: none;
     position: absolute;
@@ -64,8 +64,33 @@
 }
 
 
-@media (max-width:428px){
+@media (min-width:310px) and (max-width:480px){
     .Nav{
         padding: 20px 30px;
     }
+    .Links{
+    display: none;
+     position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000; 
+    }
+    .menu{
+        display: flex;
+    }
+    .Links.active{
+        display: flex;
+       }
+       .Links a{
+        color: white !important;
+       }
 }

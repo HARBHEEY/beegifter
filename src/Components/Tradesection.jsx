@@ -13,7 +13,7 @@ const Tradesection = () => {
                 <h1>Trade made with <span>ease</span></h1>
                 <p>Our platform ensures a seamless and secure trading experience for selling gift cards and cryptocurrencies, Our dedicated customer support team is always here to assist you with any questions, concerns, or issues you may encounter during your P2P trading journey.</p>
             </div>
-            <div  data-aos="zoom-in" data-aos-duration="1500" className="giftcard">
+            <div  data-aos="zoom-in" data-aos-duration="1300" className="giftcard">
                 <div className="giftbox">
                     <div className="trade">
                         <img src={card1} alt="" />

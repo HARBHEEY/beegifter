@@ -59,16 +59,16 @@
         flex-direction: column;
     }
     .giftbox{
-        width: 800px;
-        height: 330px;
+        width: 700px;
+        height: 350px;
     }
     .trade span{
-        width: 600px;
+        width: 500px;
     }
 }
 
 
-@media (max-width:428px){
+@media (max-width:480px){
     .tradesection1 h1{
         font-size: 30px;
     }
@@ -76,10 +76,26 @@
         width: 370px;
     }
     .giftbox{
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 380px;
     }
     .trade span{
+        width: 260px;
+    }
+}
+
+@media (max-width:320px){
+    .tradesection1{
+        text-align: center;
+    }
+    .tradesection1 p{
         width: 300px;
+    }
+    .giftbox{
+        width: 240px;
+        height: 400px;
+    }
+    .trade span{
+        width: 170px;
     }
 }

@@ -26,9 +26,11 @@ const HeroSection = () => {
           <div className='relativeimg'>
             <img src={bee3} alt="" />
             <img src={bee4} alt="" />
-          </div>
-          <div data-aos="fade-left" data-aos-duration="1000" className='phoneimg'>
+          </div>  
+          <div className='phoneimg'>
+            <div className='a'>
             <img src={bee5} alt="" />
+            </div>
             <div className="c">
               <img src={bee6} alt="" />
             </div>
