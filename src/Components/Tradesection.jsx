@@ -1,8 +1,5 @@
 import React from 'react'
 import './Tradesection.css'
-import card3 from '../assets/GivingRupiahCoin.png';
-import card4 from '../assets/List.png'
-
 const Tradesection = () => {
   return (
     <div>
