@@ -1,8 +1,5 @@
 import React from 'react'
 import './Signing.css'
-import image1 from '../assets/AppStore.png'
-import image2 from '../assets/GooglePlay.png'
-import image3 from '../assets/StartPhone.png'
 
 const Signing = () => {
   return (
@@ -15,11 +12,11 @@ const Signing = () => {
                     <p>Get the app today to start
                     enjoying trading fast and easy</p>
                     <div data-aos="fade-up" data-aos-duration="1300" className="image-row">
-                        <img src={image1} alt="" />
-                        <img src={image2} alt="" />
+                        <img src="/AppStore.png" alt="AppStore" />
+                        <img src="/GooglePlay.png" alt="GooglePlay" />
                     </div>
                 </div>
-                <img className='bee' src={image3} alt="" />
+                <img className='bee' src='/StartPhone.png' alt="StartPhone" />
             </div>
         </div>
     </div>

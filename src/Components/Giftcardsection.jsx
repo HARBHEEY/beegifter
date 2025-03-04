@@ -1,11 +1,6 @@
 import React from 'react'
 import './Giftcardsession.css'
-import animate1 from '../assets/LeftShape.png';
-import animate2 from '../assets/Step1Img.png'
-import animate4 from '../assets/ShapeLeft.png';
-import animate3 from '../assets/ShapeRight.png';
 import { FaCheck } from "react-icons/fa";
-import animate5 from '../assets/ListImg (1).png'
 
 
 const Giftcardsection = () => {
@@ -14,9 +9,9 @@ const Giftcardsection = () => {
         <div className="seller">
             <div className="rate">
                <div className="rate1">
-                    <img src={animate1} alt="" /> 
+                    <img src="/LeftShape.png" alt="LeftShape" />
                   <div data-aos="fade-right" data-aos-duration="1000" className="rate-phone">
-                     <img src={animate2} alt="" />
+                     <img src="Step1Img.png" alt="Step1Img" />
                   </div>
                </div>
                <div data-aos="fade-up" data-aos-duration="1000" className="rate-note">
@@ -30,9 +25,9 @@ const Giftcardsection = () => {
                     <p>We purchase gift cards from a diverse array of brands and countries, including Apple iTunes, Google Play, Nordstrom, Steam, Sephora, Amazon, Walmart, Visa, American Express, and many others.</p>
                 </div>
                 <div className='rate2'>
-                    <img src={animate3} alt="" />
+                    <img src="/ShapeRight.png" alt="ShapeRight" />
                     <div className="rate-phone2">
-                        <img src={animate4} alt="" />
+                        <img src="/ShapeLeft.png" alt="ShapeLeft" />
                     </div>
                 </div>
             </div>
@@ -73,7 +68,7 @@ const Giftcardsection = () => {
                            </div>
                        </div>
                     </div>
-                    <img src={animate5} alt="" />
+                      <img src="/ListImg (1).png" alt="" />
                 </div>
             </div>
 

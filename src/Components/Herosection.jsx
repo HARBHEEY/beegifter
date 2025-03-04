@@ -1,12 +1,6 @@
 import React from 'react'
 import './Herosection.css'
 import { Link } from 'react-router-dom'
-import bee1 from '../assets/AppStore.png';
-import bee2 from '../assets/GooglePlay.png';
-import bee3 from '../assets/Hero-Shape.png';
-import bee4 from '../assets/ShapeRight.png';
-import bee5 from '../assets/HeroPhone2.png';
-import bee6 from '../assets/HeroPhone.png'
 
 const HeroSection = () => {
   return (
@@ -19,20 +13,20 @@ const HeroSection = () => {
             with amazing rates</p>
             <Link className='link'>Get Started</Link>
             <div className="image-flex">
-              <img src={bee1} alt="" />
-              <img src={bee2} alt="" />
+              <img src="/AppStore.png" alt="AppStore" />
+              <img src="/GooglePlay.png" alt="GooglePlay" />
             </div>
           </div>
           <div className='relativeimg'>
-            <img src={bee3} alt="" />
-            <img src={bee4} alt="" />
+            <img src="/Hero-Shape.png" alt="Hero-Shape" />
+            <img src="/ShapeRight.png" alt="ShapeRight" />
           </div>  
           <div className='phoneimg'>
             <div className='a'>
-            <img src={bee5} alt="" />
+            <img src="/HeroPhone2.png" alt="HeroPhone2" />
             </div>
             <div className="c">
-              <img src={bee6} alt="" />
+              <img src="/HeroPhone.png" alt="HeroPhone" />
             </div>
           </div>
         </div>
