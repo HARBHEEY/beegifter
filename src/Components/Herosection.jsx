@@ -1,12 +1,12 @@
 import React from 'react'
 import './Herosection.css'
 import { Link } from 'react-router-dom'
-import bee1 from '../assets/appstore.png';
-import bee2 from '../assets/googleplay.png';
-import bee3 from '../assets/hero-shape.png';
-import bee4 from '../assets/shapeRight.png';
-import bee5 from '../assets/heroPhone2.png';
-import bee6 from '../assets/heroPhone.png'
+import bee1 from '../assets/AppStore.png';
+import bee2 from '../assets/GooglePlay.png';
+import bee3 from '../assets/Hero-Shape.png';
+import bee4 from '../assets/ShapeRight.png';
+import bee5 from '../assets/HeroPhone2.png';
+import bee6 from '../assets/HeroPhone.png'
 
 const HeroSection = () => {
   return (

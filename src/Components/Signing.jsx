@@ -1,8 +1,8 @@
 import React from 'react'
 import './Signing.css'
-import image1 from '../assets/appstore.png'
-import image2 from '../assets/googleplay.png'
-import image3 from '../assets/startphone.png'
+import image1 from '../assets/AppStore.png'
+import image2 from '../assets/GooglePlay.png'
+import image3 from '../assets/StartPhone.png'
 
 const Signing = () => {
   return (

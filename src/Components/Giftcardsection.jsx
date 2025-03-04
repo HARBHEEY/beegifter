@@ -1,11 +1,11 @@
 import React from 'react'
 import './Giftcardsession.css'
-import animate1 from '../assets/leftshape.png';
-import animate2 from '../assets/step1Img.png'
-import animate4 from '../assets/shapeLeft.png';
-import animate3 from '../assets/shapeRight.png';
+import animate1 from '../assets/LeftShape.png';
+import animate2 from '../assets/Step1Img.png'
+import animate4 from '../assets/ShapeLeft.png';
+import animate3 from '../assets/ShapeRight.png';
 import { FaCheck } from "react-icons/fa";
-import animate5 from '../assets/listimg (1).png'
+import animate5 from '../assets/ListImg (1).png'
 
 
 const Giftcardsection = () => {

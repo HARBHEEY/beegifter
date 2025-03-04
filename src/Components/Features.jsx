@@ -3,7 +3,7 @@ import Tradesection from './Tradesection'
 import Signing from './Signing'
 import Giftcardsection from './Giftcardsection'
 import Navbar from './Navbar'
-import coimage from '../assets/coinsimg.png';
+import coimage from '../assets/CoinsImg.png';
 import './Features.css'
 import Footerbee from './Footerbee'
 
