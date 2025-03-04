@@ -142,12 +142,15 @@
         width: 300px;
         text-align: center;
     }
+    .image-flex{
+        padding-bottom: 60px;
+    }
     .relativeimg img{
         width: 130px;
         height: 350px;
     }
     .phoneimg{
-        margin-bottom: 180px;
+        margin-bottom: 150px;
     }
     .a img{
         width: 180px;
@@ -168,6 +171,16 @@
     }
 }
 
+
+@media (max-width:360px){
+    .phoneimg{
+        right: 0;
+        left: 0; 
+        margin-bottom: 0px;
+    }
+}
+
+
 @media (max-width:320px){
     .hero-column h1{
         width: 250px;
@@ -178,10 +191,9 @@
     .phoneimg{
         right: 0;
         left: 0;
-        margin-bottom: -180px;
+        margin-bottom: -190px;
     }
     .hero-row{
-        gap: 30px;
-        
+        gap: 30px;  
     }
 }
